@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aeris.sdk",
+    "module": "aeris-react-native",
+    "version": "0.26.0-preview.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-react-native-0.26.0-preview.2.aar",
+          "url": "aeris-react-native-0.26.0-preview.2.aar",
+          "size": 10873,
+          "sha512": "34423121b65c9b92bca200c8df170cdd4f3782889d4da42ee07757b145a027749c39cd3edeecdeaad98f9a2309b355322bec7d6d53739ad3f1558594364506f7",
+          "sha256": "0413ba1651e721a6f9c83a532667afa25a975d2ea8dbee2a5cc2cff3f8828fe9",
+          "sha1": "b99da3635f0eea43f6410691ae24992349d61152",
+          "md5": "529eede88072a3b898bc3781da8a95ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.react",
+          "module": "react-android",
+          "version": {
+            "requires": "0.87.0"
+          }
+        },
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-react-native-0.26.0-preview.2.aar",
+          "url": "aeris-react-native-0.26.0-preview.2.aar",
+          "size": 10873,
+          "sha512": "34423121b65c9b92bca200c8df170cdd4f3782889d4da42ee07757b145a027749c39cd3edeecdeaad98f9a2309b355322bec7d6d53739ad3f1558594364506f7",
+          "sha256": "0413ba1651e721a6f9c83a532667afa25a975d2ea8dbee2a5cc2cff3f8828fe9",
+          "sha1": "b99da3635f0eea43f6410691ae24992349d61152",
+          "md5": "529eede88072a3b898bc3781da8a95ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aeris-react-native-0.26.0-preview.2-sources.jar",
+          "url": "aeris-react-native-0.26.0-preview.2-sources.jar",
+          "size": 4477,
+          "sha512": "04937ac4c31531b0b91ba67b0cadc3cba69b08a2b64df5a1def7760498b4ebfe7d67137430796159e42daec221d68aade143ef2ee622280a7ba09917c3fd5007",
+          "sha256": "497dbf654896aa8c2cae367efde9e8f62e01bdb723825252df5f298dcf3cc11e",
+          "sha1": "d2a5fdde73c078423a6f6f346a47e3df4379db8a",
+          "md5": "f94e014833302638f2c6e013e558000d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aeris.sdk",
+    "module": "aeris-unity",
+    "version": "0.26.0-preview.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-unity-0.26.0-preview.2.aar",
+          "url": "aeris-unity-0.26.0-preview.2.aar",
+          "size": 6841,
+          "sha512": "c7b874da75c5024706abed54a84dce94f04a9ae712a4c19006f70bea903a04d538f689b6a1e41939b4896b1a689831efb830d4603d586fd781edbde92c3597dc",
+          "sha256": "8f7f134961d21072e3082ba498d97661c3b6ed85c1e5ba5dd12bc9caaff1af73",
+          "sha1": "2bdb3b43764f2579b35f976b9df07f522067f554",
+          "md5": "dd94e0cd5a5cdfbec60c12c6542518ee"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-unity-0.26.0-preview.2.aar",
+          "url": "aeris-unity-0.26.0-preview.2.aar",
+          "size": 6841,
+          "sha512": "c7b874da75c5024706abed54a84dce94f04a9ae712a4c19006f70bea903a04d538f689b6a1e41939b4896b1a689831efb830d4603d586fd781edbde92c3597dc",
+          "sha256": "8f7f134961d21072e3082ba498d97661c3b6ed85c1e5ba5dd12bc9caaff1af73",
+          "sha1": "2bdb3b43764f2579b35f976b9df07f522067f554",
+          "md5": "dd94e0cd5a5cdfbec60c12c6542518ee"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aeris-unity-0.26.0-preview.2-sources.jar",
+          "url": "aeris-unity-0.26.0-preview.2-sources.jar",
+          "size": 1837,
+          "sha512": "140fe8122e5014d9cc90a852cceb292bb6cf3ae2d1025bdc99f58a2d1865ee8dc5236f546730a8d3ac4f204ea8b5bb84210de3b586f3141bd109101408cf9d07",
+          "sha256": "261e2b73d042d6424f694691c7bc832c2d712d21b461b724c7d61326f063693c",
+          "sha1": "ddb1d359e3c16b2a2d3067c7e0c06e838bdcbff9",
+          "md5": "c57214254311f8fe42606f67fc404eb1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aeris.sdk",
+    "module": "aeris-unity-channel",
+    "version": "0.26.0-preview.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "aeris-unity-channel-0.26.0-preview.2.jar",
+          "url": "aeris-unity-channel-0.26.0-preview.2.jar",
+          "size": 10232,
+          "sha512": "9fe33d65395dbb0b2609bdd84b65878b0dae2dcbaa9971b44240668068917ee3a990a9078698cca8985244375367b7b2bb411197439fc92d1db57afcac20806e",
+          "sha256": "9ecfb6c516c4f5f9603927f2c5ef6ed1a6c09794daba52ddf700c66679884b36",
+          "sha1": "47bd977c49ff6f1c73af269fed61fa150b764fa9",
+          "md5": "2038abed720ac147012539a027f82cba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aeris-unity-channel-0.26.0-preview.2.jar",
+          "url": "aeris-unity-channel-0.26.0-preview.2.jar",
+          "size": 10232,
+          "sha512": "9fe33d65395dbb0b2609bdd84b65878b0dae2dcbaa9971b44240668068917ee3a990a9078698cca8985244375367b7b2bb411197439fc92d1db57afcac20806e",
+          "sha256": "9ecfb6c516c4f5f9603927f2c5ef6ed1a6c09794daba52ddf700c66679884b36",
+          "sha1": "47bd977c49ff6f1c73af269fed61fa150b764fa9",
+          "md5": "2038abed720ac147012539a027f82cba"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aeris-unity-channel-0.26.0-preview.2-sources.jar",
+          "url": "aeris-unity-channel-0.26.0-preview.2-sources.jar",
+          "size": 5614,
+          "sha512": "f42a9203811cb8a673fa80fa6f7bdf1958eaa4b7f97de37c2ef7b0413d5acd7e8ad92f879a3f0bd9726c456bc0640823759d89532ea6192fc8103d6fea6d092c",
+          "sha256": "b5cd30069e4714daa3dfc640dd6b75fe54c853c4c040272aa1345426997a3298",
+          "sha1": "043fb0583a2b4fbaba373611c05c8a6b6761cbe7",
+          "md5": "1136db0686aade5f3d8e0a7d90aaa84a"
+        }
+      ]
+    }
+  ]
+}

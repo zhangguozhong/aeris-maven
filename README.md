@@ -1,10 +1,28 @@
-# Aeris Android Maven
+# Aeris Maven
 
-Aeris Android预览制品，固定版本`0.26.0-preview.1`。仅用于自定义Maven仓库，不声明Maven Central发布或namespace所有权。源码与MIT许可证见 [aeris-sdk](https://github.com/zhangguozhong/aeris-sdk/tree/0.26.0-preview.1)。
+Aeris Android SDK 的 Maven 制品仓库，供原生 App、React Native、Flutter、WebView 和 Unity 接入原生通信能力。
+
+## 仓库配置
+
+将以下地址加入宿主工程的依赖仓库配置，保留 `google()` 和 `mavenCentral()`：
 
 ```kotlin
-maven { url = uri("https://raw.githubusercontent.com/zhangguozhong/aeris-maven/0.26.0-preview.1") }
-implementation("com.aeris.sdk:aeris:0.26.0-preview.1")
+maven {
+    url = uri("https://raw.githubusercontent.com/zhangguozhong/aeris-maven/0.26.0-preview.2")
+    content { includeGroup("com.aeris.sdk") }
+}
 ```
 
-按需选择aeris-react-native/aeris-web/aeris-flutter/aeris-unity。aeris-unity-channel仅供宿主compileOnly，运行时唯一实现由UnityLibrary提供。已发布版本与tag不覆盖；release-manifest.json记录源码及制品SHA256。详细接入与预览验收边界见源码仓库README。
+## 原生依赖
+
+```kotlin
+implementation("com.aeris.sdk:aeris:0.26.0-preview.2")
+```
+
+最低 Android API `24`，使用 Java `17`。
+
+按需选择 `aeris-react-native`、`aeris-web`、`aeris-flutter`、`aeris-unity`。RN/Flutter 插件通过 npm/pub.dev 安装后，由平台工具接入对应原生模块。
+
+Unity 的 `aeris-unity-channel` 用作宿主的 `compileOnly` 契约；通道实现随 UnityLibrary 编译，宿主不要重复打包。
+
+[完整接入说明](https://github.com/zhangguozhong/aeris-sdk#android原生依赖)。源码与许可证见 [Aeris](https://github.com/zhangguozhong/aeris-sdk)。

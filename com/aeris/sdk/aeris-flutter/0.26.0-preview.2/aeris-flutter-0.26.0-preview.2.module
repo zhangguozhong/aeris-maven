@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aeris.sdk",
+    "module": "aeris-flutter",
+    "version": "0.26.0-preview.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-flutter-0.26.0-preview.2.aar",
+          "url": "aeris-flutter-0.26.0-preview.2.aar",
+          "size": 13555,
+          "sha512": "d210e52ed8313a40c2e7c1983ad559e8b96dda6c3b5bdc832981ba9ee9c933076e1c69a964bcfbade14e240ebb87e9b247c55aa3f498d38a3b4a77ccc7ecd6c5",
+          "sha256": "57aaa17b08eb36e80b2a4f7be5eb080c095d9363277c73d2f65e8ff32cfd97e4",
+          "sha1": "6bed7610ed13d01f63869285c9b83a653a6182ba",
+          "md5": "26e7c0aa139082857f62ec140c75528e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-flutter-0.26.0-preview.2.aar",
+          "url": "aeris-flutter-0.26.0-preview.2.aar",
+          "size": 13555,
+          "sha512": "d210e52ed8313a40c2e7c1983ad559e8b96dda6c3b5bdc832981ba9ee9c933076e1c69a964bcfbade14e240ebb87e9b247c55aa3f498d38a3b4a77ccc7ecd6c5",
+          "sha256": "57aaa17b08eb36e80b2a4f7be5eb080c095d9363277c73d2f65e8ff32cfd97e4",
+          "sha1": "6bed7610ed13d01f63869285c9b83a653a6182ba",
+          "md5": "26e7c0aa139082857f62ec140c75528e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aeris-flutter-0.26.0-preview.2-sources.jar",
+          "url": "aeris-flutter-0.26.0-preview.2-sources.jar",
+          "size": 3881,
+          "sha512": "926de3e4f9cbf8f110121af966e24d94633a8431dfba233df5a363f8eae7e0090f2d6a421f4af8575edccfefaf943dc8b7c69a6365b4969dae98e99f76a6d51c",
+          "sha256": "3d45b54430639f940c9a54b55f3b1a0c9a54b00cb5fbf5ecf316633a05b89e84",
+          "sha1": "b01ef458c624cec574136d4a309f6303cb22e327",
+          "md5": "9c1f28197f7d5316bd16c07267e351fc"
+        }
+      ]
+    }
+  ]
+}

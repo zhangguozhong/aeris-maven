@@ -1,99 +1,609 @@
 {
-  "version": "0.26.0-preview.1",
+  "version": "0.26.0-preview.2",
   "sourceRepository": "https://github.com/zhangguozhong/aeris-sdk",
-  "sourceCommit": "907d120ee545b4c059f30535a020a85d9a5eec2c",
-  "sourceTag": "0.26.0-preview.1",
+  "sourceCommit": "e6d3c2b744fc75210231761b220b951804ed7a1c",
+  "sourceTag": "0.26.0-preview.2",
   "publication": "preview",
   "files": [
     {
-      "path": "com/aeris/sdk/aeris/0.26.0-preview.1/aeris-0.26.0-preview.1.aar",
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "1f450e04c8ed2f9059c1f302d77cec2628721a932fbd1e5db597fa3d68430ee9"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.module.sha256",
+      "bytes": 64,
+      "sha256": "b1767807a73dd5816946fa80ec3b52b5c6fce8a4f9ba0f76c17cf697d16db5fe"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.aar.md5",
+      "bytes": 32,
+      "sha256": "46a3be3c850228c874323692ad4aa8f66e5af0d8391f409734fe909e18fffe68"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "b6f309ea14acc3cf58787f695639e4cad0329bec1a4039f5e9298351a13f59cb"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.aar.sha512",
+      "bytes": 128,
+      "sha256": "6ddab0e67f8e2ad62c6b0c08f12a57547aeb2f9b38e427351a5ce209715af2e1"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.pom",
+      "bytes": 1452,
+      "sha256": "8e364b898424dbdcd873608f1c572b8c9a1d64347800f2f03d18816c7a8b6905"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.pom.sha256",
+      "bytes": 64,
+      "sha256": "bdee927c329995bc2edcc478a38720ae19af24ed18c7ff4e62577b1ea8298b8a"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "c858ee913bb5441b9a6057c9371f5032ed7c1e60786a5505f2223e8cc18c8ab1"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.module",
+      "bytes": 3437,
+      "sha256": "b950a43d010731d69cb376ce93984d3cac99ce9fab984d0d5053fc082830dfc1"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.module.sha512",
+      "bytes": 128,
+      "sha256": "eee70de76601508c84a908a2b33c9e0466ca9cef08480f4003fa61d0ab20c55e"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.pom.sha1",
+      "bytes": 40,
+      "sha256": "6e2491bf676eee0ab814ae952f2abbf2e56fe9592bfc9714c30f16002cf57a8e"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.module.sha1",
+      "bytes": 40,
+      "sha256": "1d43813cea80060e562b103d58f5a715962a156c5cb1f76d65aa1f067168b8d9"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.aar.sha1",
+      "bytes": 40,
+      "sha256": "0c729a1913ae076eff761ddd6b9b96b28ed2a9a9ae16c154bc4c22d102918fd5"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.module.md5",
+      "bytes": 32,
+      "sha256": "69f670968271fa3b8c10b365c405877c3d68ed60449f08f45fde1df87f6b8e9e"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.aar.sha256",
+      "bytes": 64,
+      "sha256": "ba6d9113282beaff7fed4c6817d2b938545e76ad3cc5aae202f7385728869cf5"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.pom.sha512",
+      "bytes": 128,
+      "sha256": "17b9467a492bbfc9279f7f75b44c0c0fe09b870c1649e3fc4c3ed33c6568ada5"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "3859043e78dd05635cb91060babff25dfff799c4afdaf6c99b0b0eed1e6f0e03"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.pom.md5",
+      "bytes": 32,
+      "sha256": "32d50e87c1c03cf8fb48b3ecd0c0a2277ea8e8ea4366370c9b0053d015b6d915"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2.aar",
       "bytes": 147668,
       "sha256": "d511da6c29642abd9ba40d890f18d6f356a273f69203d7c25b204471fc0bb336"
     },
     {
-      "path": "com/aeris/sdk/aeris/0.26.0-preview.1/aeris-0.26.0-preview.1-sources.jar",
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.2/aeris-0.26.0-preview.2-sources.jar",
       "bytes": 32563,
       "sha256": "79fc4853222268e4d242709268c3559deec2493ec7b3117add2966e1ff22236b"
     },
     {
-      "path": "com/aeris/sdk/aeris/0.26.0-preview.1/aeris-0.26.0-preview.1.pom",
-      "bytes": 1462,
-      "sha256": "66a5b2dded727a90926637762b1158f731b57c4d6f33df58db11a5f6ca1bf77d"
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.module",
+      "bytes": 3700,
+      "sha256": "b236017594d53295a74011daf05348bfc375b7a2a13954a81d7ae22056fde9f6"
     },
     {
-      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.1/aeris-react-native-0.26.0-preview.1.aar",
-      "bytes": 10873,
-      "sha256": "0413ba1651e721a6f9c83a532667afa25a975d2ea8dbee2a5cc2cff3f8828fe9"
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.module.sha512",
+      "bytes": 128,
+      "sha256": "956dfe7a28fd9b1bafa2510888c44b85fa503ba59ff34f4197b010531d6f4bd7"
     },
     {
-      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.1/aeris-react-native-0.26.0-preview.1-sources.jar",
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2-sources.jar",
       "bytes": 4477,
       "sha256": "497dbf654896aa8c2cae367efde9e8f62e01bdb723825252df5f298dcf3cc11e"
     },
     {
-      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.1/aeris-react-native-0.26.0-preview.1.pom",
-      "bytes": 1677,
-      "sha256": "714ab8417757aaa19ff02a0e96e91b350ce939798d9e2730ea4c131ac1688ee5"
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.aar.sha1",
+      "bytes": 40,
+      "sha256": "5cadf9e0bfe2091e6712d50432891f5b8d3f0e6648a49316955a47b774e35dda"
     },
     {
-      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.1/aeris-web-0.26.0-preview.1.aar",
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.aar",
+      "bytes": 10873,
+      "sha256": "0413ba1651e721a6f9c83a532667afa25a975d2ea8dbee2a5cc2cff3f8828fe9"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.module.sha1",
+      "bytes": 40,
+      "sha256": "46f07115f4288b3a1cc3963389995b66629639d802b53dcec3fef8e01d8d80ab"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "b5ef49cf879d0874f06e5d2b7835e1ff99ca65a0c0dfd627311b2922e1f57b24"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.pom.sha1",
+      "bytes": 40,
+      "sha256": "1512470a5dd55912bd1f37b2dec9f2710835ca4481c07810e6a716742730021d"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.module.md5",
+      "bytes": 32,
+      "sha256": "e57eb7456f717f938593dccdb62a76bccf1e66a08defe073c57f9ae4afd5712b"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.pom.md5",
+      "bytes": 32,
+      "sha256": "dc6a4417a2c2628c290f3c062a20755b5a5a1939e52e20f08eec054b0bac85ce"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.aar.sha256",
+      "bytes": 64,
+      "sha256": "97de6504e45b0d1930f5a606587bab4d91f445dca143dde11c3acc203dd58c58"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.pom.sha512",
+      "bytes": 128,
+      "sha256": "f7c0c0605e5a4a04035ecac1e2e810b3742aecd26cdd85f5cb316ba546213f39"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "ab557741816d1c1d87d71b773cc5b81e2d874101da796b946a5e859b72059d00"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.aar.md5",
+      "bytes": 32,
+      "sha256": "3cee08c61d83fcd7e337cf181fe591493e5d533523a3ebe2a47bbbb4c1113ed8"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.module.sha256",
+      "bytes": 64,
+      "sha256": "7faf0e9f429afca11087e62be588c48046b6dea26a507cee4b5d7217bc57af05"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.aar.sha512",
+      "bytes": 128,
+      "sha256": "8ba7a2804e147359a3a8d1a69d86dcd7c9ddfde37e4e9cfbbcdc289f7d893339"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "4776a8eb467d882dcc55b3bb6b1796d6db1c7bf70061a2cdf96d092022c4a8dd"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.pom.sha256",
+      "bytes": 64,
+      "sha256": "582f198ac22cbf0506a2cb3ea48612817b68824b8ec11ae21a3cdeaa88c7841b"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2.pom",
+      "bytes": 1667,
+      "sha256": "e6ac26545c6f67d4c797f3807bef3808d0e0d5117c7e9667cfc2ec91785effe1"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.2/aeris-react-native-0.26.0-preview.2-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "ba3194315074fa42d75b2eb29cdb595572e8a8c7673b22f98f86b6dfd374cfe7"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.aar",
       "bytes": 12589,
       "sha256": "40b13e974beac8c8e4826f3d239a468bb7b285ce723ce93b0c20a2f9020014de"
     },
     {
-      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.1/aeris-web-0.26.0-preview.1-sources.jar",
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "82f2b97cc67cd1d7022773be5e33f15c48814fca1324b46b443a8ac172540e3d"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.pom.sha256",
+      "bytes": 64,
+      "sha256": "af87ad99f080994562b6f0030aaa9d626dc61fefdc934294590ee35345183c10"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.module.sha1",
+      "bytes": 40,
+      "sha256": "d836a4a1a823c06bc81d7028d2c29acaa8dc79cccc5dec9cd973b1882c6c8650"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.pom.sha1",
+      "bytes": 40,
+      "sha256": "ce487af94b9aafee5aee545e1937da714af732357063f9e7444ed6d7c6978d40"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.aar.sha512",
+      "bytes": 128,
+      "sha256": "b38544119e8af8e4b89712f5e85a6df0e697d50ad1dacd10d0a2a088108ddafc"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.module.sha256",
+      "bytes": 64,
+      "sha256": "1ec4f4153a2bfe6b97add5352b9af092eda43345b77bc86f1a16d39272328ac2"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2-sources.jar",
       "bytes": 3539,
       "sha256": "4a47c6ed90773a00c057fb8be39baf6c1840ead6b060e2c41091b0efd4fdce46"
     },
     {
-      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.1/aeris-web-0.26.0-preview.1.pom",
-      "bytes": 1649,
-      "sha256": "cbe77936fb1f1d645004f7bd65003309efc5fff4a58fd0ab1a2f777efe232977"
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.module",
+      "bytes": 3627,
+      "sha256": "d798c00194ef23a5957e7acf0c0c919d0b88ef3bb4f5caebad62f0729fa3213a"
     },
     {
-      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.1/aeris-flutter-0.26.0-preview.1.aar",
-      "bytes": 11716,
-      "sha256": "f0d71e054ba3fa9ef066273abf7b62d26caa824b3c06b41fc48383d668e650f9"
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "8e4a5b85fbb2082e809cb8e9e1a51fe50f610b8473a4ff301b514e961d2f90c8"
     },
     {
-      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.1/aeris-flutter-0.26.0-preview.1-sources.jar",
-      "bytes": 3181,
-      "sha256": "c1b0a65913c8f410754e8dfd1e39c9938ad3f4118dc9577a2bd9a66fa2ea43b1"
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.aar.md5",
+      "bytes": 32,
+      "sha256": "4fc2100d22d975b84767975463d8d54c3151f1a418467cb971f9b980510c5ee3"
     },
     {
-      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.1/aeris-flutter-0.26.0-preview.1.pom",
-      "bytes": 1482,
-      "sha256": "a5c36fe7158594568add7e6ac31c170d9e32a388fffc3046c8669edf42d03fd1"
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.aar.sha1",
+      "bytes": 40,
+      "sha256": "2c6512d253b7de0a10befff84ead5fed81e74ee21644f1b039eee42f5705377b"
     },
     {
-      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.1/aeris-unity-0.26.0-preview.1.aar",
-      "bytes": 6841,
-      "sha256": "8f7f134961d21072e3082ba498d97661c3b6ed85c1e5ba5dd12bc9caaff1af73"
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.pom.sha512",
+      "bytes": 128,
+      "sha256": "63be8689f7acd1d742415680a3a0304c84698921529dfa66f3b349eb29e383e9"
     },
     {
-      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.1/aeris-unity-0.26.0-preview.1-sources.jar",
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.module.md5",
+      "bytes": 32,
+      "sha256": "40e6dea33a5734ba64aa99887d5955d562e6b3804b3a1cccd77d0919fe1dadb9"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.aar.sha256",
+      "bytes": 64,
+      "sha256": "b98d443353e3dced49f9749293e999950f9e9c580dc51f66d5e6379458c8b46a"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.pom",
+      "bytes": 1639,
+      "sha256": "56de00a3141c7d5d618f58d3c81256b653cb8b0eaccd0e713f8f9f26f8b56cbe"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "4339a6435c481a4dba5c1dcdcba3098020f22b7b063e29370050d2b6c32f06ce"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.pom.md5",
+      "bytes": 32,
+      "sha256": "3fd289f20714d88d9ec17addbd4183462a0e4a1f188da8d456985aa08aaee217"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "b565091be2fbd495e1b1c677f0da6f859b257ef718564915bc637d37b4c50e7c"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.2/aeris-web-0.26.0-preview.2.module.sha512",
+      "bytes": 128,
+      "sha256": "35288ab414931289089f80fc6fd4928d41e21816459b113734849046ed9f31b5"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.module",
+      "bytes": 3498,
+      "sha256": "31f32f0a268093e285165aab1deb9a9c50eb12adc66f9e954378c0db9fefeae3"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "127a28bd80e98ff3c8d18121563e4071fa2220d098e12900b83d541a98c6ba5a"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.module.sha512",
+      "bytes": 128,
+      "sha256": "191e0958c51a135832074206fe3d6150555d53318a691e9bb6da9c6a20a4f26a"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.pom",
+      "bytes": 1472,
+      "sha256": "42707578ac7bb97fa86dd59e85e88d4ee8ccffedb2551d402fee4a0e4964ce85"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.aar.sha512",
+      "bytes": 128,
+      "sha256": "624a81cd8edf1e8315661d206be4c516e1b0ca491bc5af29f50d178efe8396da"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.aar.md5",
+      "bytes": 32,
+      "sha256": "a60c07631b516a4507dc1ae8bcab6d07685e492e58ad119401aaf918da470974"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "17933261a189cc980115701d41c6f3c8926ed3580fa1eb5a1533f0c13a999f15"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.pom.sha256",
+      "bytes": 64,
+      "sha256": "e9630bb4230d0e21c239f9b53f115bd8bbd8fba1fb8d176e04891168d19a130b"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.pom.md5",
+      "bytes": 32,
+      "sha256": "06bb41b349698030c0fee6d7b971106dbde0a0fcf32de53304f48807852e24d3"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "e96061fedd89729425e72366f31d5d5c9157345213c04403939c429b064d5fd7"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.module.sha256",
+      "bytes": 64,
+      "sha256": "5bfdb0366d356563e893af62703ddf12d4aa0c2b5e01e723f4878e8ac9f54fd9"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.pom.sha1",
+      "bytes": 40,
+      "sha256": "58e1bfa60db8234f044e2a7fbb9225b1f1ab02a64338fa973aec386956cea281"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.aar",
+      "bytes": 13555,
+      "sha256": "57aaa17b08eb36e80b2a4f7be5eb080c095d9363277c73d2f65e8ff32cfd97e4"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.module.sha1",
+      "bytes": 40,
+      "sha256": "487ce8b6b16cf2c4b85558f346a994e1a749fec87669757f84362338b8273100"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.aar.sha1",
+      "bytes": 40,
+      "sha256": "20485a9ca4a947873cc71cd9e50f5f6e4f7da0da51006046951e200c6702a659"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2-sources.jar",
+      "bytes": 3881,
+      "sha256": "3d45b54430639f940c9a54b55f3b1a0c9a54b00cb5fbf5ecf316633a05b89e84"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "fd51703ec6fcbd090134b3d4ebe24667482b51fac7ffffa8313b83ed33035658"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.module.md5",
+      "bytes": 32,
+      "sha256": "60f2697acab4ad4391b0db477cf540f2c01872bcfbd59d3d056d34f9d4c32114"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.aar.sha256",
+      "bytes": 64,
+      "sha256": "9e90f07dd7c501ab563a5e881188dedeae2ef46a8efed39f1b1a9ef1c63ca160"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.2/aeris-flutter-0.26.0-preview.2.pom.sha512",
+      "bytes": 128,
+      "sha256": "c314c0847c2807ccc88e687e0e6b2a89128292be607267be00cf9c4c7903ce26"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2-sources.jar",
       "bytes": 1837,
       "sha256": "261e2b73d042d6424f694691c7bc832c2d712d21b461b724c7d61326f063693c"
     },
     {
-      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.1/aeris-unity-0.26.0-preview.1.pom",
-      "bytes": 1478,
-      "sha256": "f8e4d6233bbb5ce849a7c0379df34827454db35e6ed3e41be82bb88a70ebc3ce"
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.module",
+      "bytes": 3482,
+      "sha256": "6ff2d030e7dfd9b18a0e2bb354ec5a2a5ef7767e06f6d00b3b23d89e310c5381"
     },
     {
-      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.1/aeris-unity-channel-0.26.0-preview.1.jar",
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.module.sha256",
+      "bytes": 64,
+      "sha256": "9d4c6cf751874258dd22994acfea1ae5c5c4b7c0431972a80a8918800ea73cea"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.pom",
+      "bytes": 1468,
+      "sha256": "55314233d0a4da4c614fe4d9ee82446d6e315641d39ef8afeed37721a44ad742"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.aar.sha512",
+      "bytes": 128,
+      "sha256": "b481818cdfbe3756cc3ae2222137cdbe248d615f3c1ea9c78bcbc3bf58adf626"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.module.sha1",
+      "bytes": 40,
+      "sha256": "3ac873e2e01ce642456a6d9d30b146bd6088aa1d91a60718ebe673e9a677871e"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.aar.md5",
+      "bytes": 32,
+      "sha256": "d8db228319818ead27eada6cd92be65507161c9a8f574d979181a3ca4af3a5a8"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "44f9a577cbb9a088d866c84f12b16feea206b6cbf1adbdef6fdd2838e91af015"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.pom.sha256",
+      "bytes": 64,
+      "sha256": "9e157b8f4e585cbf2d835d93dd3599630bde0a81791c674e6d8d6d53acb180c1"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.pom.md5",
+      "bytes": 32,
+      "sha256": "c3bae4bfd1f732fec3f6aa316d95fcc01a4e597cdeb7a8a9609e0c65e25e6e65"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.pom.sha1",
+      "bytes": 40,
+      "sha256": "b8c35c4548c349069e5a6dd53d99fa1f73d1bc9b2204e51aa6e33f455605b21f"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "7ba01ef0a7373197cc71d60dca274ca1bcbdf5eef703af112f5b4d5227f61b0d"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "2d6cb0ba03abc62c82364146adae7e3b30ca1ab81242d749d4def3da4b445698"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.aar",
+      "bytes": 6841,
+      "sha256": "8f7f134961d21072e3082ba498d97661c3b6ed85c1e5ba5dd12bc9caaff1af73"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.module.md5",
+      "bytes": 32,
+      "sha256": "d5c9e312e19e48de403fc21552aef78d7ca314656ae8bc9d8cc1e19b5c36ebce"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.aar.sha256",
+      "bytes": 64,
+      "sha256": "bbc3fcb84fe5546eb9d5523607a827d83bf9527551873e646f8c07015ec89d60"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.pom.sha512",
+      "bytes": 128,
+      "sha256": "e828550ff54914c4890d39d4efafbc24e324704875e614137adcd79a1fa4f2e2"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.module.sha512",
+      "bytes": 128,
+      "sha256": "c285b5bc7008ddd9ac8c3251e307b448910ebed0d1ecc3e927e003625a97936a"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "d92480db6d234ddda090de3865b1716d7942c4a19940a41d3c0c302902e34ccf"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.2/aeris-unity-0.26.0-preview.2.aar.sha1",
+      "bytes": 40,
+      "sha256": "3dd1239f62816ee2ef3435d03d7466e1c6d14424068398e56fc87cc8c1568847"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.pom.sha1",
+      "bytes": 40,
+      "sha256": "b76b16eacd6bf0340d7847bf4c214acd6c85eda8b5aac51aa754b0b88a67fa27"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.pom",
+      "bytes": 774,
+      "sha256": "44e707d28532c467def5d453a9aa602ce7b369d7121d5d72190b88c814794926"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.module.sha1",
+      "bytes": 40,
+      "sha256": "a9298e653ac68650f538c4e80686b16576bcab78a497f6b0cecaa05c9ea305f0"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.jar.md5",
+      "bytes": 32,
+      "sha256": "953ce1ac22c297953bc5f05fca7240248e039989dbedbf1ed5d522c5fe5ceeab"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "dd24b614044efce81d6f39652800c3301e8ed304507ae415ab35c247a6b54a02"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "801559c4145c00264a6a0dd0c1c7c5da92022fb89dbc6432087fdde06203f3bb"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.pom.md5",
+      "bytes": 32,
+      "sha256": "c7a06ad235480fcd4aaa4121373db19b74e4a933c49a9a9ea8d049e9a1fd6e4c"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.jar.sha512",
+      "bytes": 128,
+      "sha256": "035b84a8ddb7f77a5c697f5e01811a1e73a3a5ac594d385f831c346802e80a54"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.pom.sha256",
+      "bytes": 64,
+      "sha256": "8393653f363d071067f0c2c96099a73b4a9bd6d0fe916f96affe8317dbb8ce79"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.jar",
       "bytes": 10232,
       "sha256": "9ecfb6c516c4f5f9603927f2c5ef6ed1a6c09794daba52ddf700c66679884b36"
     },
     {
-      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.1/aeris-unity-channel-0.26.0-preview.1-sources.jar",
-      "bytes": 5614,
-      "sha256": "1ffb4c9fd986f33789ff844adbc0716489a26923a042ae8e16b8610dfc93d87b"
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.module.sha256",
+      "bytes": 64,
+      "sha256": "37a1d832cf3e9074b795ec156ac81ab7bcf490ae0516a55bf1f97b848f353730"
     },
     {
-      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.1/aeris-unity-channel-0.26.0-preview.1.pom",
-      "bytes": 774,
-      "sha256": "5fdb489ad3a451d5f6523fddc5a3417317fb6a7c32492b4bd78d838c2ff1cae5"
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2-sources.jar",
+      "bytes": 5614,
+      "sha256": "b5cd30069e4714daa3dfc640dd6b75fe54c853c4c040272aa1345426997a3298"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.jar.sha1",
+      "bytes": 40,
+      "sha256": "29c1228cb6a9e104f74dbadfd28ede890e39261fc350190ef0ea88f0fb81e3f7"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "c7bb7a1186e4231bd982dd2c726139761086dceb93aa8e4dfccfbbdefbb1fb5a"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.module",
+      "bytes": 2815,
+      "sha256": "11d4c5afbc7ae006cbf031cc3b0f8ef34d8e45c9a2b8733e4d44ae46d9050b6c"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "13d30f2da7ade809f0aaab33dd1e26791f01d4317aa2e23fdcfc6fd27a372636"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.module.sha512",
+      "bytes": 128,
+      "sha256": "2deb601c6d09b599ac5dbdefe71e9af59fbaabee47d717640b425b995954d053"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.module.md5",
+      "bytes": 32,
+      "sha256": "ddeb5974b43968fda28f669ea83af5ee54b05688d35357ec01e8cb384030f599"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.jar.sha256",
+      "bytes": 64,
+      "sha256": "5eceec41933d223a56bb80e0ebe8f92669c12f12af2e3141c616a76b1c4993cb"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.2/aeris-unity-channel-0.26.0-preview.2.pom.sha512",
+      "bytes": 128,
+      "sha256": "00995d465589be4994bfae4e3bf9650c354c6cff69b4c3b6e3abb404672f9ae1"
     }
   ]
 }
