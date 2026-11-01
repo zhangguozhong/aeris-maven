@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aeris.sdk",
+    "module": "aeris-web",
+    "version": "0.26.0-preview.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-web-0.26.0-preview.1.aar",
+          "url": "aeris-web-0.26.0-preview.1.aar",
+          "size": 12589,
+          "sha512": "ba52e9945ece3715f11c96d06647b2ec189f0d2fddaaa40feb85758bd6cc90d912f0a51887d6c0ab7122755aa47aff6d555f0a9df626343c24e284d94f9f7c8a",
+          "sha256": "40b13e974beac8c8e4826f3d239a468bb7b285ce723ce93b0c20a2f9020014de",
+          "sha1": "3c63de6cc5400514aaa3c3b7437cdc447c8c75d3",
+          "md5": "a570386affdf6962fd0df2d691bdc55f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.aeris.sdk",
+          "module": "aeris",
+          "version": {
+            "requires": "0.26.0-preview.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aeris-web-0.26.0-preview.1.aar",
+          "url": "aeris-web-0.26.0-preview.1.aar",
+          "size": 12589,
+          "sha512": "ba52e9945ece3715f11c96d06647b2ec189f0d2fddaaa40feb85758bd6cc90d912f0a51887d6c0ab7122755aa47aff6d555f0a9df626343c24e284d94f9f7c8a",
+          "sha256": "40b13e974beac8c8e4826f3d239a468bb7b285ce723ce93b0c20a2f9020014de",
+          "sha1": "3c63de6cc5400514aaa3c3b7437cdc447c8c75d3",
+          "md5": "a570386affdf6962fd0df2d691bdc55f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aeris-web-0.26.0-preview.1-sources.jar",
+          "url": "aeris-web-0.26.0-preview.1-sources.jar",
+          "size": 3539,
+          "sha512": "5b8f482cce6c507d144a1c2d49222f3cfb35c75182faa9ca9e5ac554d63b3632b116c4cc66cabd76730bdc3017085d32c1a3f90fa1dcecfbfc573c7377684d7a",
+          "sha256": "4a47c6ed90773a00c057fb8be39baf6c1840ead6b060e2c41091b0efd4fdce46",
+          "sha1": "abaf77c547b522b0da96896bd4352b2e8fe6c003",
+          "md5": "09564819cf355a06d871e0fe227c6c16"
+        }
+      ]
+    }
+  ]
+}

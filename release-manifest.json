@@ -1,0 +1,99 @@
+{
+  "version": "0.26.0-preview.1",
+  "sourceRepository": "https://github.com/zhangguozhong/aeris-sdk",
+  "sourceCommit": "907d120ee545b4c059f30535a020a85d9a5eec2c",
+  "sourceTag": "0.26.0-preview.1",
+  "publication": "preview",
+  "files": [
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.1/aeris-0.26.0-preview.1.aar",
+      "bytes": 147668,
+      "sha256": "d511da6c29642abd9ba40d890f18d6f356a273f69203d7c25b204471fc0bb336"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.1/aeris-0.26.0-preview.1-sources.jar",
+      "bytes": 32563,
+      "sha256": "79fc4853222268e4d242709268c3559deec2493ec7b3117add2966e1ff22236b"
+    },
+    {
+      "path": "com/aeris/sdk/aeris/0.26.0-preview.1/aeris-0.26.0-preview.1.pom",
+      "bytes": 1462,
+      "sha256": "66a5b2dded727a90926637762b1158f731b57c4d6f33df58db11a5f6ca1bf77d"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.1/aeris-react-native-0.26.0-preview.1.aar",
+      "bytes": 10873,
+      "sha256": "0413ba1651e721a6f9c83a532667afa25a975d2ea8dbee2a5cc2cff3f8828fe9"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.1/aeris-react-native-0.26.0-preview.1-sources.jar",
+      "bytes": 4477,
+      "sha256": "497dbf654896aa8c2cae367efde9e8f62e01bdb723825252df5f298dcf3cc11e"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-react-native/0.26.0-preview.1/aeris-react-native-0.26.0-preview.1.pom",
+      "bytes": 1677,
+      "sha256": "714ab8417757aaa19ff02a0e96e91b350ce939798d9e2730ea4c131ac1688ee5"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.1/aeris-web-0.26.0-preview.1.aar",
+      "bytes": 12589,
+      "sha256": "40b13e974beac8c8e4826f3d239a468bb7b285ce723ce93b0c20a2f9020014de"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.1/aeris-web-0.26.0-preview.1-sources.jar",
+      "bytes": 3539,
+      "sha256": "4a47c6ed90773a00c057fb8be39baf6c1840ead6b060e2c41091b0efd4fdce46"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-web/0.26.0-preview.1/aeris-web-0.26.0-preview.1.pom",
+      "bytes": 1649,
+      "sha256": "cbe77936fb1f1d645004f7bd65003309efc5fff4a58fd0ab1a2f777efe232977"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.1/aeris-flutter-0.26.0-preview.1.aar",
+      "bytes": 11716,
+      "sha256": "f0d71e054ba3fa9ef066273abf7b62d26caa824b3c06b41fc48383d668e650f9"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.1/aeris-flutter-0.26.0-preview.1-sources.jar",
+      "bytes": 3181,
+      "sha256": "c1b0a65913c8f410754e8dfd1e39c9938ad3f4118dc9577a2bd9a66fa2ea43b1"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-flutter/0.26.0-preview.1/aeris-flutter-0.26.0-preview.1.pom",
+      "bytes": 1482,
+      "sha256": "a5c36fe7158594568add7e6ac31c170d9e32a388fffc3046c8669edf42d03fd1"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.1/aeris-unity-0.26.0-preview.1.aar",
+      "bytes": 6841,
+      "sha256": "8f7f134961d21072e3082ba498d97661c3b6ed85c1e5ba5dd12bc9caaff1af73"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.1/aeris-unity-0.26.0-preview.1-sources.jar",
+      "bytes": 1837,
+      "sha256": "261e2b73d042d6424f694691c7bc832c2d712d21b461b724c7d61326f063693c"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity/0.26.0-preview.1/aeris-unity-0.26.0-preview.1.pom",
+      "bytes": 1478,
+      "sha256": "f8e4d6233bbb5ce849a7c0379df34827454db35e6ed3e41be82bb88a70ebc3ce"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.1/aeris-unity-channel-0.26.0-preview.1.jar",
+      "bytes": 10232,
+      "sha256": "9ecfb6c516c4f5f9603927f2c5ef6ed1a6c09794daba52ddf700c66679884b36"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.1/aeris-unity-channel-0.26.0-preview.1-sources.jar",
+      "bytes": 5614,
+      "sha256": "1ffb4c9fd986f33789ff844adbc0716489a26923a042ae8e16b8610dfc93d87b"
+    },
+    {
+      "path": "com/aeris/sdk/aeris-unity-channel/0.26.0-preview.1/aeris-unity-channel-0.26.0-preview.1.pom",
+      "bytes": 774,
+      "sha256": "5fdb489ad3a451d5f6523fddc5a3417317fb6a7c32492b4bd78d838c2ff1cae5"
+    }
+  ]
+}
